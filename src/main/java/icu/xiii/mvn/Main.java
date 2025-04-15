@@ -14,10 +14,12 @@ public class Main {
 
         PasswordGenerator passwordGenerator = new PasswordGenerator();
         int passwordLength = 12;
+        String password = passwordGenerator.generatePassword(passwordLength);
 
         logger.info("Generated password (length={}): {}",
-                passwordLength,
-                passwordGenerator.generatePassword(passwordLength));
+                password.length(),
+                password
+        );
 
         logger.debug("Finishing Main::main()");
     }
