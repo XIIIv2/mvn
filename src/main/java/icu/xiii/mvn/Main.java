@@ -1,6 +1,6 @@
 package icu.xiii.mvn;
 
-import icu.xiii.PasswordGenerator;
+import icu.xiii.generator.PasswordGenerator;
 
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
